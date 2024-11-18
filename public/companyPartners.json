@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Partner 2",
+    "logo": "partner2-logo.png",
+    "website": "https://partner2.com",
+    "development": "Building"
+  },
+  {
+    "id": 2,
+    "name": "Partner 3",
+    "logo": "partner3-logo.png",
+    "website": "https://partner3.com",
+    "development": "Building"
+  },
+  {
+    "id": 3,
+    "name": "Partner 4",
+    "logo": "partner4-logo.png",
+    "website": "https://partner4.com",
+    "development": "Building"
+  },
+  {
+    "id": 4,
+    "name": "Partner 5",
+    "logo": "partner5-logo.png",
+    "website": "https://partner5.com",
+    "development": "Building"
+  },
+  {
+    "id": 5,
+    "name": "Partner 6",
+    "logo": "partner6-logo.png",
+    "website": "https://partner6.com",
+    "development": "Building"
+  },
+  {
+    "id": 6,
+    "name": "Partner 7",
+    "logo": "partner7-logo.png",
+    "website": "https://partner7.com",
+    "development": "Building"
+  },
+  {
+    "id": 7,
+    "name": "Partner 8",
+    "logo": "partner8-logo.png",
+    "website": "https://partner8.com",
+    "development": "Building"
+  },
+  {
+    "id": 8,
+    "name": "Partner 9",
+    "logo": "partner9-logo.png",
+    "website": "https://partner9.com",
+    "development": "Building"
+  },
+  {
+    "id": 9,
+    "name": "Partner 10",
+    "logo": "partner10-logo.png",
+    "website": "https://partner10.com",
+    "development": "Building"
+  },
+  {
+    "id": 10,
+    "name": "Partner 11",
+    "logo": "partner11-logo.png",
+    "website": "https://partner11.com",
+    "development": "Building"
+  },
+  {
+    "id": 11,
+    "name": "Partner 12",
+    "logo": "partner12-logo.png",
+    "website": "https://partner12.com",
+    "development": "IT"
+  },
+  {
+    "id": 12,
+    "name": "Partner 13",
+    "logo": "partner13-logo.png",
+    "website": "https://partner13.com",
+    "development": "IT"
+  },
+  {
+    "id": 13,
+    "name": "Partner 14",
+    "logo": "partner14-logo.png",
+    "website": "https://partner14.com",
+    "development": "IT"
+  },
+  {
+    "id": 14,
+    "name": "Partner 15",
+    "logo": "partner15-logo.png",
+    "website": "https://partner15.com",
+    "development": "IT"
+  },
+  {
+    "id": 15,
+    "name": "Partner 15",
+    "logo": "partner15-logo.png",
+    "website": "https://partner15.com",
+    "development": "IT"
+  },
+  {
+    "id": 16,
+    "name": "Partner 15",
+    "logo": "partner15-logo.png",
+    "website": "https://partner15.com",
+    "development": "IT"
+  },
+  {
+    "id": 17,
+    "name": "Partner 15",
+    "logo": "partner15-logo.png",
+    "website": "https://partner15.com",
+    "development": "IT"
+  },
+  {
+    "id": 18,
+    "name": "Partner 15",
+    "logo": "partner15-logo.png",
+    "website": "https://partner15.com",
+    "development": "IT"
+  },
+  {
+    "id": 19,
+    "name": "Partner 15",
+    "logo": "partner15-logo.png",
+    "website": "https://partner15.com",
+    "development": "IT"
+  },
+  {
+    "id": 20,
+    "name": "Partner 15",
+    "logo": "partner15-logo.png",
+    "website": "https://partner15.com",
+    "development": "IT"
+  }
+]
