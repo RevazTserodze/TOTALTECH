@@ -105,7 +105,7 @@ const ServiceDetail: React.FC = () => {
   const fetchServices = useCallback(async () => {
     try {
       setLoading(true);
-      const response = await fetch("companyService.json");
+      const response = await fetch("/companyService.json");
       if (!response.ok) {
         throw new Error(`Network response was not ok: ${response.statusText}`);
       }
@@ -122,7 +122,7 @@ const ServiceDetail: React.FC = () => {
     } finally {
       setLoading(false);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id, i18n.language]);
 
   useEffect(() => {
@@ -162,9 +162,7 @@ const ServiceDetail: React.FC = () => {
 
           <Divider />
 
-          <Button onClick={() => setShowModal(true)}>
-            {t("Make a call")}
-          </Button>
+          <Button onClick={() => setShowModal(true)}>{t("Make a call")}</Button>
         </div>
       </div>
 
@@ -205,9 +203,7 @@ const ServiceDetail: React.FC = () => {
                 style={{ display: "flex", justifyContent: "center" }}
                 className="h5 text-primary mb-4"
               >
-                <a href="tel:595850777">
-                  +995 595 850 777
-                </a>
+                <a href="tel:595850777">+995 595 850 777</a>
               </p>
               <button
                 className="btn btn-outline-danger w-100"

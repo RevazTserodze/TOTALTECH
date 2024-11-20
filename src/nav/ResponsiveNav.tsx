@@ -1,122 +1,8 @@
 import { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
-import styled, { css, keyframes } from "styled-components";
 import { motion, AnimatePresence } from "framer-motion";
 import { t } from "i18next";
 import i18n from "../multilanguage/i18";
-
-const slideIn = keyframes`
-  from {
-    transform: translateY(-20px);
-    opacity: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  }
-`;
-
-const slideOut = keyframes`
-  from {
-    transform: translateY(0);
-    opacity: 1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  }
-  to {
-    transform: translateY(-20px);
-    opacity: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-`;
-
-interface TogglerButtonProps {
-  isNavVisible: boolean;
-}
-
-const Navbar = styled.nav`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background: #f5f5f5;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  transition: top 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  z-index: 1;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-`;
-
-const NavIcon = styled.img`
-  width: 90px;
-  margin-left: -20px;
-`;
-
-const TogglerButton = styled.button<TogglerButtonProps>`
-  display: none;
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  padding: 10px;
-  transition: transform 0.3s ease-in-out;
-
-  @media (max-width: 1300px) {
-    display: block;
-  }
-
-  ${({ isNavVisible }) =>
-    isNavVisible &&
-    css`
-      transform: rotate(90deg);
-    `}
-`;
-
-const NavItems = styled.div<{ isVisible: boolean }>`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  background: #fff;
-  position: absolute;
-  top: 88px;
-  left: 0;
-  max-height: ${(props) => (props.isVisible ? "calc(100vh - 70px)" : "0")};
-  opacity: ${(props) => (props.isVisible ? "1" : "0")};
-  transform: ${(props) =>
-    props.isVisible ? "translateY(0)" : "translateY(-20px)"};
-  overflow: hidden;
-  animation: ${(props) =>
-    props.isVisible
-      ? css`
-          ${slideIn} 0.3s ease-out forwards
-        `
-      : css`
-          ${slideOut} 0.3s ease-in forwards
-        `};
-  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-`;
-
-const NavLink = styled(Link)`
-  color: #333;
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-  transition: color 0.3s ease;
-
-  &:hover {
-    color: #555;
-  }
-`;
-
-const NavItem = styled.div`
-  @media (min-width: 1301px) {
-    margin: 0 10px;
-  }
-`;
 
 const useScrollDirection = () => {
   const [scrollDir, setScrollDir] = useState("up");
@@ -151,14 +37,8 @@ const ResponsiveNav = () => {
 
   const toggleNav = useCallback(() => {
     setIsButtonToggled((prev) => !prev);
-
-    if (isNavVisible) {
-      setIsNavVisible(false);
-      setTimeout(() => setIsButtonToggled(false), 300);
-    } else {
-      setIsNavVisible(true);
-    }
-  }, [isNavVisible]);
+    setIsNavVisible((prev) => !prev);
+  }, []);
 
   const handleNavLinkClick = useCallback(() => {
     setIsNavVisible(false);
@@ -171,12 +51,6 @@ const ResponsiveNav = () => {
     setCurrentLang(newLanguage);
   };
 
-  useEffect(() => {
-    if (!isNavVisible) {
-      setIsButtonToggled(false);
-    }
-  }, [isNavVisible]);
-
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -186,19 +60,29 @@ const ResponsiveNav = () => {
 
   return (
     <>
-      <Navbar
+      <motion.nav
         style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          padding: "10px 20px",
+          background: "#f5f5f5",
+          position: "fixed",
+          width: "100%",
           top: scrollDir === "down" ? "-120px" : "0",
+          left: "0",
+          zIndex: 1,
           boxShadow:
             scrollDir === "down"
               ? "0 2px 5px rgba(0, 0, 0, 0.2)"
               : "0 4px 8px rgba(0, 0, 0, 0.3)",
+          transition: "top 0.3s ease-in-out, box-shadow 0.3s ease-in-out",
         }}
       >
         <Link to="/">
-          <NavIcon
+          <img
             onClick={scrollToTop}
-            style={{ marginTop: "0px" }}
+            style={{ width: "90px", marginLeft: "-20px" }}
             src="./icons/TOTALTECH Down.png"
             alt="nav-icon"
           />
@@ -218,56 +102,100 @@ const ResponsiveNav = () => {
             <a onClick={() => setShowModal(true)}>
               <img
                 style={{ width: "24px" }}
-                src="./icons/phone-icon.png"
+                src="/icons/phone-icon.png"
                 alt=""
               />
             </a>
           </li>
           <li style={{ marginTop: "13px" }}>
-            <TogglerButton
-              style={{ marginTop: "-15px" }}
+            <motion.button
               onClick={toggleNav}
-              isNavVisible={isButtonToggled}
               aria-label={isNavVisible ? "Close menu" : "Open menu"}
+              style={{
+                display: "block",
+                background: "none",
+                border: "none",
+                fontSize: "30px",
+                cursor: "pointer",
+                padding: "10px",
+                marginTop: "-10px",
+              }}
+              animate={{
+                rotate: isButtonToggled ? 90 : 0,
+              }}
+              transition={{ duration: 0.3 }}
             >
               {isButtonToggled ? "×" : "☰"}
-            </TogglerButton>
+            </motion.button>
           </li>
         </ul>
 
-        <NavItems isVisible={isNavVisible}>
-          <NavItem>
-            <NavLink to="/" onClick={handleNavLinkClick}>
-              {t("Welcome to React")}
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink to="/services" onClick={handleNavLinkClick}>
-              {t("Services")}
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink to="/accessories" onClick={handleNavLinkClick}>
-              {t("Shop")}
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink to="/contact" onClick={handleNavLinkClick}>
-              {t("Contact")}
-            </NavLink>
-          </NavItem>
-          <button
-            style={{
-              cursor: "pointer",
-              marginBottom: "20px",
-            }}
-            className={"btn btn-outline-primary"}
-            onClick={toggleLanguage}
-          >
-            {currentLang === "en" ? "ENG" : "GEO"}
-          </button>
-        </NavItems>
-      </Navbar>
+        <AnimatePresence>
+          {isNavVisible && (
+            <motion.div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+                background: "#fff",
+                position: "absolute",
+                top: "88px",
+                left: 0,
+                zIndex: 2,
+                boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
+              }}
+              initial={{ maxHeight: 0, opacity: 0 }}
+              animate={{ maxHeight: "calc(100vh - 70px)", opacity: 1 }}
+              exit={{ maxHeight: 0, opacity: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              {["Welcome to React", "Services", "Shop", "Contact"].map(
+                (text, idx) => (
+                  <motion.div
+                    key={text}
+                    style={{
+                      padding: "15px",
+                      textAlign: "center",
+                    }}
+                    initial={{ y: 50, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    exit={{ y: 50, opacity: 0 }}
+                    transition={{ delay: idx * 0.1, duration: 0.3 }}
+                  >
+                    <Link
+                      to={`/${text.toLowerCase()}`}
+                      style={{
+                        color: "#333",
+                        textDecoration: "none",
+                        fontSize: "16px",
+                      }}
+                      onClick={handleNavLinkClick}
+                    >
+                      {t(text)}
+                    </Link>
+                  </motion.div>
+                )
+              )}
+              <motion.button
+                style={{
+                  cursor: "pointer",
+                  marginBottom: "20px",
+                  alignSelf: "center",
+                }}
+                className={"btn btn-outline-primary"}
+                onClick={toggleLanguage}
+                initial={{ scale: 0.8 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.8 }}
+                transition={{ duration: 0.3 }}
+              >
+                {currentLang === "en" ? "ENG" : "GEO"}
+              </motion.button>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </motion.nav>
+
       <AnimatePresence>
         {showModal && (
           <motion.div

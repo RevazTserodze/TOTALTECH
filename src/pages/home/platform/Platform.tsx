@@ -1,7 +1,6 @@
 import React, { useState, useCallback, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import ChildPlatform from "./ChildPlatform";
-import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 
 interface Button {
@@ -11,37 +10,6 @@ interface Button {
   imageUrl: string;
   description: { en: string; ge: string };
 }
-
-const Container = styled.div`
-  padding: 20px;
-  margin-top: 150px;
-`;
-
-const ButtonCard = styled.div<{
-  isSelected: boolean;
-  isDisabled: boolean;
-}>`
-  cursor: ${(props) => (props.isDisabled ? "not-allowed" : "pointer")};
-  border: ${(props) =>
-    props.isSelected ? "2px solid black" : "2px solid transparent"};
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-  flex: 1 1 auto;
-  background: ${(props) => (props.isSelected ? "white" : "transparent")};
-  transition: background 0.3s ease;
-
-  &:hover {
-    border-color: black;
-  }
-`;
-
-const ButtonImage = styled.img`
-  max-width: 100px;
-  height: auto;
-  margin-bottom: 10px;
-`;
 
 const buttons: Button[] = [
   {
@@ -101,21 +69,36 @@ const Platform: React.FC = () => {
   const currentLanguage = i18n.language as keyof Button["name"];
 
   return (
-    <Container className="container">
+    <div className="container mt-5">
       <div className="d-flex flex-wrap justify-content-center">
         {buttons.map((button) => (
-          <ButtonCard
+          <div
             key={button.id}
             onClick={() => handleCardClick(button)}
-            isSelected={selectedButton?.id === button.id}
-            isDisabled={isAnimating}
+            className={`d-flex flex-column align-items-center justify-content-center border ${
+              selectedButton?.id === button.id
+                ? "border-dark bg-light"
+                : "border-transparent"
+            } rounded-3 p-3 m-3 shadow-sm transition-all cursor-pointer ${
+              isAnimating ? "disabled" : ""
+            }`}
+            style={{
+              transition: "transform 0.2s, background-color 0.3s",
+              cursor: "pointer",
+              transform:
+                selectedButton?.id === button.id ? "scale(1.05)" : "none",
+            }}
           >
-            <ButtonImage
+            <img
               src={button.img}
               alt={t(button.name[currentLanguage])}
+              className="mb-3"
+              width="100"
+              height="auto"
               loading="lazy"
             />
-          </ButtonCard>
+            <h5 className="text-center">{t(button.name[currentLanguage])}</h5>
+          </div>
         ))}
       </div>
 
@@ -131,7 +114,7 @@ const Platform: React.FC = () => {
           </motion.div>
         )}
       </AnimatePresence>
-    </Container>
+    </div>
   );
 };
 

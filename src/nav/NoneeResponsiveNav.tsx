@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { motion, AnimatePresence } from "framer-motion"; // Import AnimatePresence for modal animation
+import { motion, AnimatePresence } from "framer-motion";
 import styled from "styled-components";
 import NavElements from "./NavElements";
 import { useTranslation } from "react-i18next";
@@ -43,7 +43,7 @@ const NoneResponsiveNav = () => {
 
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const [showModal, setShowModal] = useState(false); // State for controlling the modal visibility
+  const [showModal, setShowModal] = useState(false);
 
   const controlNavbar = useCallback(() => {
     if (window.scrollY > lastScrollY) {
@@ -80,7 +80,7 @@ const NoneResponsiveNav = () => {
             <img
               onClick={scrollToTop}
               style={{ width: "120px", cursor: "pointer" }}
-              src="./icons/TOTALTECH Down.png"
+              src="/icons/TOTALTECH Down.png"
               alt="nav-icon"
             />
           </Link>

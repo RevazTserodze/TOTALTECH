@@ -5,7 +5,7 @@
         "id": 1,
         "name": "Alarm systems",
         "info": "Our advanced alarm systems offer reliable security for homes and businesses with instant detection and alerts",
-        "img": "./icons/alarm.png",
+        "img": "/icons/alarm.png",
         "development": "Building",
         "details": "Our alarm systems are designed with cutting-edge technology to offer robust security for residential and commercial spaces. The system includes a variety of sensors such as motion detectors, glass break sensors, and door/window contacts that work seamlessly together to detect unauthorized access. It features real-time alerts via SMS or app notifications, ensuring you're always informed, whether you're on-site or away. The alarm systems can be customized to fit specific needs, offering adjustable sensitivity levels, scheduling options, and integration with other smart devices like CCTV cameras, lights, and locks. For additional peace of mind, the system supports cloud storage for alarm data and video footage, which can be accessed anytime for review. We also offer professional installation services to ensure optimal placement of sensors and smooth operation. Our systems are built to be tamper-resistant, equipped with backup battery power, and will continue functioning even during power outages, maintaining high standards of reliability and safety."
       },
@@ -14,7 +14,7 @@
         "id": 2,
         "name": "Camera devices",
         "info": "Our high-quality cameras provide reliable surveillance and real-time monitoring for homes and businesses.",
-        "img": "./icons/camera.png",
+        "img": "/icons/camera.png",
         "development": "Building",
         "details": "Our camera devices are engineered to deliver clear, high-resolution video, even in low-light conditions, ensuring that your property remains secure day and night. They feature advanced motion detection, allowing the cameras to automatically record and send alerts when activity is detected. With options for both indoor and outdoor use, our devices are weather-resistant and durable, built to withstand harsh environments. The cameras are equipped with night vision technology and can cover a wide field of view, providing extensive coverage of your property. Integration with mobile and desktop apps allows for remote access, letting you view live footage, review past recordings, and manage settings from anywhere. Additionally, our camera devices support cloud and local storage options, giving you flexible data management choices. Easy installation, secure data encryption, and compatibility with other security systems make our camera devices an ideal choice for seamless, dependable surveillance."
       },
@@ -22,7 +22,7 @@
         "id": 3,
         "name": "Desktop Applications",
         "info": "We develop custom desktop applications to improve business efficiency and productivity.",
-        "img": "./icons/deskapp.png",
+        "img": "/icons/deskapp.png",
         "development": "IT",
         "details": "Custom desktop applications are a key asset for businesses that require robust, high-performance software solutions for managing complex workflows, data, and tasks. Whether you're looking for inventory management systems, customer relationship management (CRM) software, or specialized applications to streamline internal processes, we have the expertise to build a solution that fits. Our desktop applications are built with user-friendly interfaces, ensuring that your team can easily adapt to and utilize the software. We focus on optimizing performance, reliability, and scalability, ensuring the application can grow alongside your business needs. Additionally, our development process includes thorough testing, security features, and regular updates, so you can be confident that your software remains secure and functional. From idea conception to implementation and maintenance, our team is here to ensure your desktop application supports your business goals effectively. Contact us today to learn more about how we can develop a custom desktop solution that meets your needs."
       },
@@ -30,7 +30,7 @@
         "id": 4,
         "name": "Fire prevention",
         "info": "Our fire prevention systems provide proactive solutions to reduce the risk of fire hazards, ensuring the safety of your property, assets, and people.",
-        "img": "./icons/fire.png",
+        "img": "/icons/fire.png",
         "development": "Building",
         "details": "Fire prevention is a critical aspect of building safety, and our systems are designed to detect and prevent potential fire risks before they escalate. We offer a range of fire prevention technologies, including smoke detectors, heat sensors, fire extinguishers, and automated suppression systems. Our solutions are designed for both residential and commercial properties, providing early warning systems that notify you of potential dangers, allowing you to take immediate action. Our fire prevention systems are also fully integrated with other safety systems, such as alarm systems and emergency lighting, to provide comprehensive protection. We ensure that all systems meet industry standards and local fire safety regulations, with customizable solutions based on the size and type of the property. Our expert team offers professional installation, regular maintenance, and ongoing support to ensure that your fire prevention systems remain reliable and effective. Protect your property and loved ones with our advanced fire prevention solutions."
       },
@@ -38,7 +38,7 @@
         "id": 5,
         "name": "Mobile Applications",
         "info": "We specialize in developing high-performance mobile applications tailored to your business needs, providing seamless user experiences on both Android and iOS platforms.",
-        "img": "./icons/mobile.png",
+        "img": "/icons/mobile.png",
         "development": "IT",
         "details": "In today's fast-paced digital world, having a mobile app that meets your business requirements is crucial for staying competitive. Our mobile application development services focus on creating intuitive, functional, and visually appealing apps that engage users while achieving business goals. We design apps for both Android and iOS, ensuring compatibility and smooth performance across various devices and screen sizes. Whether you're looking for an e-commerce app, a service platform, or a custom tool to streamline your operations, our team has the expertise to deliver a high-quality solution. We focus on creating apps that are fast, responsive, and easy to navigate, with features such as push notifications, real-time data syncing, offline functionality, and secure user authentication. Our team follows the best practices in mobile development, including testing for performance, security, and user experience to ensure your app is reliable and user-friendly. From concept to deployment, we provide end-to-end services, ensuring your mobile application helps drive your business success. Contact us today to discuss how we can turn your mobile app idea into reality."
       },
@@ -46,7 +46,7 @@
         "id": 6,
         "name": "UPS devices",
         "info": "Our Uninterruptible Power Supply (UPS) devices ensure continuous power supply during outages, protecting your sensitive equipment and maintaining business continuity.",
-        "img": "./icons/Screenshot_2024-08-27_200054.png",
+        "img": "/icons/Screenshot_2024-08-27_200054.png",
         "development": "Building",
         "details": "Uninterruptible Power Supply (UPS) devices are essential for safeguarding critical equipment from power interruptions, surges, and voltage fluctuations. Our UPS devices provide backup power, ensuring that your systems remain operational during unexpected power outages. Designed for both residential and commercial use, our UPS solutions are reliable and energy-efficient, protecting your computers, servers, networking devices, and other sensitive equipment from damage caused by power instability. With various power capacities, our devices can handle different load requirements, from small home offices to large enterprise systems. Features include automatic voltage regulation (AVR) to stabilize input voltage, real-time monitoring via mobile apps, and intelligent battery management for extended lifespan. Our UPS devices are easy to install and come with user-friendly interfaces for monitoring and controlling power usage. Whether you need a compact unit for home use or a more robust solution for large-scale infrastructure, our UPS devices provide the security and peace of mind you need to keep your systems running smoothly and safely. Contact us to discuss the best UPS solution for your needs."
       },
@@ -54,7 +54,7 @@
         "id": 7,
         "name": "Solar panels",
         "info": "Our high-efficiency solar panels provide sustainable and cost-effective energy solutions, reducing your carbon footprint while lowering electricity costs.",
-        "img": "./icons/solar.png",
+        "img": "/icons/solar.png",
         "development": "Building",
         "details": "Solar panels are an environmentally friendly energy solution, harnessing the power of the sun to generate electricity and reduce reliance on traditional power sources. Our solar panels are designed for both residential and commercial applications, offering reliable, long-term energy production with minimal maintenance. Featuring high-efficiency photovoltaic cells, they capture more sunlight, converting it into usable energy and maximizing your return on investment. Our solar panel systems are customizable to fit your energy needs, whether you are looking to power your entire home or supplement your current energy consumption. The panels are durable and built to withstand harsh weather conditions, providing consistent performance throughout their lifespan. Additionally, our solar panels are designed for easy installation and integration with existing power grids or standalone systems with battery storage. We also provide monitoring solutions, allowing you to track energy production and consumption in real-time via mobile apps. By choosing solar panels, you’re not only lowering your electricity bills but also contributing to a cleaner, more sustainable future. Contact us today to discuss how we can help you transition to renewable energy."
       },
@@ -62,7 +62,7 @@
         "id": 8,
         "name": "Web applications",
         "info": "We develop custom web applications tailored to your business needs, delivering robust, scalable, and user-friendly solutions that drive digital transformation.",
-        "img": "./icons/web.png",
+        "img": "/icons/web.png",
         "development": "IT",
         "details": "Web applications are essential for businesses seeking to streamline processes, enhance customer engagement, and stay competitive in the digital landscape. Our web application development services focus on building responsive, scalable, and secure applications that are designed to meet your unique business requirements. Whether you need an e-commerce platform, a content management system, a customer relationship management tool, or a custom business application, our expert team delivers solutions that are optimized for performance and usability. We use the latest technologies and best practices in web development to ensure cross-browser compatibility, mobile responsiveness, and fast loading times. Additionally, our applications are built with robust security features, including secure data encryption, user authentication, and regular updates to safeguard your business and customer data. We follow an agile development process, ensuring that the project evolves based on feedback and can be easily adapted to changing business needs. Our team also provides ongoing maintenance and support to ensure that your web application remains up to date and continues to perform optimally. Contact us today to discuss how our web applications can elevate your business operations and help you achieve your digital goals."
       },
@@ -70,7 +70,7 @@
         "id": 9,
         "name": "Customer Counting",
         "info": "A customer counting system is a technology used to monitor the flow of people entering or exiting a space, commonly used in retail stores, shopping malls, airports, and public venues.",
-        "img": "./icons/Customer Counting.png",
+        "img": "/icons/Customer Counting.png",
         "development": "Building",
         "details": "various lighting conditions and even at night. The Gazelle DualView system combines both video and thermal technologies, providing enhanced accuracy in complex, high-traffic environments. For more precise tracking in crowded spaces, the Gazelle Thermal 3D Video Counter integrates 3D video technology with thermal sensors for detailed monitoring. Basic 2D video counters rely on standard cameras with image processing to detect and count people, suitable for simpler environments with moderate traffic. Finally, beam counters use infrared beams across entry points, registering a count whenever someone crosses the beam, making them ideal for smaller venues or straightforward setups. Each type of system offers specific advantages depending on the complexity of the environment and the level of accuracy required."
       },
@@ -78,7 +78,7 @@
         "id": 10,
         "name": "EAS(Electronic Article Survelliance)",
         "info": "Electronic Article Surveillance (EAS) is a security system commonly used in retail environments to deter and prevent theft.",
-        "img": "./icons/EAS.png",
+        "img": "/icons/EAS.png",
         "development": "Building",
         "details": "Electronic Article Surveillance (EAS) is a widely used anti-theft system in the retail industry that helps protect merchandise by detecting unauthorized removal of items from stores. There are several types of EAS technologies, including radio frequency (RF), acousto-magnetic (AM), and electromagnetic systems. Each type works by creating an electronic field between the detection gates. When an active tag enters this field without being deactivated at checkout, it disrupts the field and triggers an alarm. EAS systems rely on electronic tags or labels affixed to products. These tags come in different forms depending on the product type: hard tags are typically used on clothing and are removed by store employees after purchase; soft tags and labels are often applied to books, electronics, and other items and can be deactivated at the register; and source tagging, where EAS tags are embedded during the manufacturing process. The benefits of EAS include reducing shrinkage (losses due to theft), increasing profitability, providing valuable data about store traffic and product movement, and enhancing overall store operations and security strategies."
       },
@@ -86,7 +86,7 @@
         "id": 11,
         "name": "Metal Detection",
         "info": "Our advanced metal detection systems provide reliable solutions for detecting and safeguarding against unwanted metallic objects, ensuring security and compliance.",
-        "img": "./icons/metal detection.png",
+        "img": "/icons/metal detection.png",
         "development": "Building",
         "details": "Metal detection systems are crucial for maintaining safety and security in various industries, including construction sites, public events, airports, and industrial facilities. Our state-of-the-art metal detection technology is designed to detect a wide range of metallic objects, from small items like coins to large metal equipment, ensuring that no hazardous or unauthorized materials go unnoticed. These systems are highly accurate, providing real-time alerts and easy-to-read results for quick decision-making. We offer a variety of metal detection solutions, including handheld devices for portability and walk-through systems for high-traffic areas. Our devices are built to withstand tough environments and are easy to use, providing consistent performance without false alarms. Additionally, our metal detectors can be customized to meet specific requirements, such as detecting particular types of metals or adapting to the layout of your facility. Whether you need a solution for security screening, mining, or quality control, our metal detection systems provide reliable and efficient performance. Contact us today to discuss how our metal detection solutions can enhance your safety protocols and ensure compliance with industry standards."
       },
@@ -94,7 +94,7 @@
         "id": 12,
         "name": "RFID (Radio Frequency Identification)",
         "info": "Our RFID solutions provide efficient, contactless tracking and management of assets, inventory, and personnel, improving operational efficiency and security.",
-        "img": "./icons/RFID.png",
+        "img": "/icons/RFID.png",
         "development": "Building",
         "details": "RFID technology is a powerful tool for businesses seeking to streamline operations, enhance asset tracking, and improve security. Our RFID solutions are designed to offer accurate and real-time tracking of goods, inventory, equipment, and personnel, without the need for direct line-of-sight scanning. Using radio frequency waves, RFID tags can be attached to items and read by RFID readers, enabling quick identification and monitoring of assets in warehouses, retail environments, logistics operations, and more. RFID systems offer numerous benefits, including reduced human error, faster inventory management, and increased operational efficiency. Whether you need to monitor inventory, track shipments, or manage employee access, RFID technology can be customized to meet your specific needs. Our solutions are scalable, ranging from simple systems for small businesses to more complex, integrated systems for large enterprises. Additionally, RFID systems provide enhanced security features, such as tamper detection and access control, ensuring that only authorized personnel can interact with specific assets. With our RFID solutions, you can optimize workflows, reduce costs, and gain better visibility and control over your operations. Contact us to explore how RFID can transform your business processes and improve overall efficiency."
       },
@@ -102,7 +102,7 @@
         "id": 13,
         "name": "Automatic Plate Recognition",
         "info": "A system designed to automatically detect and recognize vehicle license plates, providing quick and accurate data capture for enhanced security and traffic management.",
-        "img": "./icons/automatic-plate-recognation.png",
+        "img": "/icons/automatic-plate-recognation.png",
         "development": "Building",
         "details": "The Automatic Plate Recognition system uses advanced image processing and machine learning algorithms to identify and read license plates from images or video feeds in real-time. This technology is ideal for applications in toll management, parking access, and law enforcement, where it enhances operational efficiency and accuracy. The system can handle a variety of plate formats and conditions, offering high recognition rates and easy integration into existing infrastructure."
       },
@@ -111,7 +111,7 @@
         "id": 14,
         "name": "Access Control",
         "info": "Our advanced access control systems provide secure and efficient management of personnel and facility access, enhancing security and reducing unauthorized entry.",
-        "img": "./icons/acces-control.png",
+        "img": "/icons/acces-control.png",
         "development": "Building",
         "details": "Access control systems are essential for businesses and organizations seeking to enhance security by regulating who can access specific areas within a facility. Our access control solutions offer a comprehensive approach to managing entry points, from doors and gates to secure rooms and restricted areas. With advanced technologies such as card readers, biometric scanners, and keypads, our systems ensure that only authorized personnel are granted access, providing real-time monitoring and alerts to track entry and exit activities. Our access control systems are highly customizable, allowing for different levels of access based on roles, schedules, and locations. Additionally, our solutions integrate seamlessly with other security measures, such as surveillance cameras and alarm systems, to provide a complete security infrastructure. The systems are user-friendly and easy to manage, with centralized control that allows administrators to modify permissions, generate reports, and monitor access logs from anywhere. Whether you need a simple system for a small office or a sophisticated solution for a large corporate campus, our access control systems provide the flexibility, scalability, and reliability you need. Contact us today to learn more about how our access control solutions can help you secure your premises and protect sensitive areas from unauthorized access."
       },
@@ -119,7 +119,7 @@
         "id": 15,
         "name": "Barriers and Parking Systems",
         "info": "Our automated barriers and parking systems provide efficient traffic management, ensuring smooth access control and optimized parking for both residential and commercial properties.",
-        "img": "./icons/parking-system.png",
+        "img": "/icons/parking-system.png",
         "development": "Building",
         "details": "Barriers and parking systems are essential for managing vehicle access and ensuring efficient use of parking spaces in both private and public facilities. Our solutions are designed to provide seamless integration with your facility's needs, offering automated systems that control vehicle entry, exit, and parking allocation. With features such as ticketing systems, license plate recognition (LPR), and automated payment options, our parking solutions streamline the parking process, reduce congestion, and improve the user experience. Whether for residential complexes, shopping malls, office buildings, or public parking lots, our systems can be customized to suit different traffic volumes and user requirements. The barrier systems are built to handle high traffic flow, ensuring smooth and secure operation, while the parking management software allows for real-time monitoring, space availability tracking, and reporting. Additionally, our systems can be integrated with access control, surveillance, and payment systems to offer a complete solution for your parking needs. The benefits include improved traffic flow, reduced operational costs, and enhanced customer satisfaction. Contact us today to learn more about how our barriers and parking systems can improve your facility's efficiency and security."
       },
@@ -127,7 +127,7 @@
         "id": 16,
         "name": "POS (Point of Sale)",
         "info": "Our POS systems provide efficient, reliable, and secure solutions for retail and hospitality businesses, enabling seamless transactions, inventory management, and customer engagement.",
-        "img": "./icons/pos.png",
+        "img": "/icons/pos.png",
         "development": "Building",
         "details": "Point of Sale (POS) systems are the backbone of retail and hospitality businesses, facilitating smooth, fast, and secure transactions. Our POS solutions are designed to meet the unique needs of businesses, offering advanced features such as real-time inventory tracking, sales analytics, customer management, and seamless integration with payment gateways. Whether you are running a retail store, restaurant, or any other business, our POS systems provide the flexibility and reliability to streamline operations and enhance customer satisfaction. The systems are easy to use and can be customized to fit your specific business model, allowing for features like multi-store management, mobile POS capabilities, and integration with accounting or CRM software. In addition to payment processing, our POS systems help businesses manage inventory, reduce stock discrepancies, and track sales trends, enabling better decision-making and increased profitability. Our solutions also support various payment methods, including credit/debit cards, mobile payments, and contactless options, ensuring a smooth checkout experience for your customers. Security is a priority, with built-in features such as encryption and secure payment processing to protect both customer data and business transactions. Contact us today to discuss how our POS systems can help streamline your operations, improve efficiency, and drive business growth."
       },
@@ -135,7 +135,7 @@
         "id": 17,
         "name": "Design And Build",
         "info": "Our design and build services offer a complete solution for your construction needs, from conceptual design to final build, ensuring quality, efficiency, and innovation every step of the way.",
-        "img": "./icons/design and build.png",
+        "img": "/icons/design and build.png",
         "development": "Building",
         "details": "Our Design and Build services provide a comprehensive approach to construction projects, combining the creativity of design with the technical expertise of building. This integrated service ensures that all aspects of your project, from initial concept and planning to construction and final completion, are handled by a single team, offering you streamlined communication, cost efficiency, and faster project delivery. Our experienced designers work closely with you to understand your vision and requirements, creating innovative and functional designs that meet your goals while adhering to local regulations and sustainability standards. Once the design is finalized, our skilled construction team takes over to bring the vision to life, ensuring the highest quality of craftsmanship, safety, and efficiency throughout the building process. Whether you are planning residential, commercial, or mixed-use developments, our Design and Build services offer a seamless and hassle-free experience, with a single point of contact and full accountability from start to finish. Our team manages all aspects of the project, including architecture, structural engineering, permits, and construction, ensuring that deadlines and budgets are met without compromising on quality. Contact us today to discuss your next project and learn how our Design and Build services can transform your ideas into reality."
       },
@@ -143,7 +143,7 @@
         "id": 18,
         "name": "Theft Detection System Radio Frequency",
         "info": "Electronic Article Surveillance (EAS) systems help prevent shoplifting by securing store entrances and exits. These systems act as a barrier to protect merchandise from theft.",
-        "img": "./icons/anti-thief-system.png",
+        "img": "/icons/anti-thief-system.png",
         "development": "Building",
         "details": "An anti-theft machine in malls is a security system designed to prevent shoplifting. These machines, commonly known as Electronic Article Surveillance (EAS) systems, typically consist of sensors at store exits and special tags or labels attached to merchandise. When an item with an active tag passes through the sensors without being deactivated by store staff, an alarm sounds, alerting security personnel. These systems help deter theft and are widely used in retail environments for loss prevention."
       }
@@ -155,7 +155,7 @@
         "id": 1,
         "name": "სიგნალიზაცია",
         "info": "ჩვენი სიგნალიზაციის სისტემები უზრუნველყოფენ მაღალი ხარისხის უსაფრთხოებას თქვენი ობიექტისათვის, რაც საშუალებას იძლევა სწრაფად იდენტიფიციროთ ნებისმიერი საფრთხე და დროულად მიიღოთ ზომები.",
-        "img": "./icons/alarm.png",
+        "img": "/icons/alarm.png",
         "development": "მშენებლობა",
         "details": "სიგნალიზაციის სისტემები საჭიროა იმისთვის, რომ თქვენი ობიექტი იყოს დაცული შესაძლო საფრთხეებისგან. ჩვენი სიგნალიზაციის გადაწყვეტილებები ეფუძნება უახლეს ტექნოლოგიებს, რათა სწრაფად და ეფექტურად რეაგირდეთ ნებისმიერ შეჭრის ან სხვა საფრთხის შემთხვევაზე. სისტემები გთავაზობენ სხვადასხვა მახასიათებლებს, როგორიცაა მოძრაობის დეტექტორები, კარზე დამონტაჟებული სენსორები, ჟღერადი და ვიზუალური გაფრთხილების მოწყობილობები, რომლებიც შეუფერხებლად მუშაობს როგორც სახლში, ისე კომერციულ და ინდუსტრიულ ობიექტებზე. ჩვენი სიგნალიზაციის სისტემები არა მხოლოდ უსაფრთხოების უზრუნველყოფას, არამედ მდგრადობასაც სთავაზობს, რითაც ინახავს თქვენი ბიზნესის ან საცხოვრებელი სივრცის სიმშვიდეს. ეს სისტემები ადვილად ინტეგრირდება სხვა უსაფრთხოების გადაწყვეტილებებთან, როგორიცაა ვიდეო მონიტორინგი და უსაფრთხოების ალარმის აპარატები. კლიენტებისთვის ჩვენ გვთავაზობთ სრულ მომსახურებას, დაწყებული ინსტალაციიდან და კონფიგურაციიდან, და დამთავრებული სისტემის რეგულარულ ტექნიკურ მომსახურებით და მხარდაჭერით. დამიკავშირდით დღესვე, რომ გაიგოთ, თუ როგორ შეიძლება ჩვენი სიგნალიზაციის სისტემები გამოგადგეთ თქვენი ობიექტის დაცვაში."
       },
@@ -163,7 +163,7 @@
         "id": 2,
         "name": "კამერები",
         "info": "ჩვენი კამერები უზრუნველყოფენ მაღალი ხარისხის ვიდეო მონიტორინგს, რაც საშუალებას იძლევა თქვენი ობიექტის უსაფრთხოების მუდმივად კონტროლი და ნებისმიერი ეჭვის შემთხვევაში დროული რეაგირება.",
-        "img": "./icons/camera.png",
+        "img": "/icons/camera.png",
         "development": "მშენებლობა",
         "details": "კამერების სისტემები აუცილებელია როგორც შინ, ასევე კომერციულ და ინდუსტრიულ ობიექტებზე, რათა უზრუნველყოს უსაფრთხოება და ტრეფიკის მონიტორინგი. ჩვენი კამერები უზრუნველყოფენ მაღალმხარდაჭერილ ვიდეოგადაღებას, რათა დეტალურად აღიქმოს თქვენი ობიექტის ყველა მონაკვეთი და დაგეხმაროთ ნებისმიერ არასასურველ აქტივობასთან დაკავშირებით. კამერები შეიცავენ მაღალი რეზოლუციის ჩაწერას, ღამის ხედვას, მოძრაობის შეგრძნების სისტემებს, და ჰიტოვებიანი ალგორითმებს, რათა ავტომატურად აღიქვას ნებისმიერი შეჭრა. ამ სისტემების გამოყენება საშუალებას იძლევა სამუშაო სივრცეებისა და საცხოვრებელი სახლების 24 საათიანი დაცვა, რაც მნიშვნელოვნად აუმჯობესებს უსაფრთხოებას. გარდა ამისა, ჩვენი კამერები ინტეგრირდება სხვა უსაფრთხოების სისტემებთან, როგორიცაა სიგნალიზაცია და გამოსავალი პანელები. ჩვენი გუნდს შეუძლია სისტემების განთავსება და მორგება თქვენი მოთხოვნილებების შესაბამისად, რათა მიიღოთ ყველაზე ეფექტური და უსაფრთხო გადაწყვეტილება. რეგულარული ტექნიკური მომსახურება და მხარდაჭერა უზრუნველყოფს სისტემის უწყვეტ მუშაობას. დაგვიკავშირდით და მიიღეთ დეტალური ინფორმაცია იმის შესახებ, თუ როგორ შეიძლება ჩვენი კამერები გააუმჯობესონ თქვენი ობიექტის უსაფრთხოება."
       },
@@ -171,7 +171,7 @@
         "id": 3,
         "name": "დესკტოპ აპლიკაციები",
         "info": "ჩვენი დესკტოპ აპლიკაციები უზრუნველყოფენ ეფექტურ და მოქნილ პროგრამულ გადაწყვეტილებებს თქვენი ბიზნესისათვის, რომელიც აკმაყოფილებს კომპლექსურ დავალებებს და მონაცემთა მენეჯმენტს.",
-        "img": "./icons/deskapp.png",
+        "img": "/icons/deskapp.png",
         "development": "IT",
         "details": "დესკტოპ აპლიკაციები მნიშვნელოვან როლს თამაშობენ ბიზნესებში, რომლებსაც სჭირდებათ ძლიერი და დახვეწილი პროგრამული გადაწყვეტილებები მონაცემთა დამუშავების და რთული დავალებების შესასრულებლად. ჩვენი გუნდი გთავაზობთ სპეციალიზირებულ დესკტოპ აპლიკაციებს, რომლებიც სრულად აკმაყოფილებენ თქვენი ბიზნესის მოთხოვნებს. ჩვენ მიერ შექმნილი აპლიკაციები მხარს უჭერენ მომხმარებლის ინდივიდუალურ საჭიროებებს, რაც ხელს უწყობს საქმიანობის გაძლიერებას და პროდუქტიულობას. ჩვენი დესკტოპ აპლიკაციები მოიცავს ისეთ მახასიათებლებს, როგორიცაა მონაცემთა ბაზის მართვა, ანგარიშგება, გაყიდვების ანალიზი და ინტერფეისი, რომელიც ადვილად გამოსაყენებელია. ჩვენ ვქმნით უნიკალურ გადაწყვეტილებებს, რომლებიც გაძლევთ ეფექტურ ინსტრუმენტებს თქვენი ბიზნესის ოპერაციების მართვისთვის. კლიენტებს ვთავაზობთ აპლიკაციების პერსონალიზაციას, რაც უზრუნველყოფს მათ საჭიროებებზე მორგებულ ფუნქციებს. ასევე, ჩვენი დესკტოპ აპლიკაციები სრულად ინტეგრირდება სხვა პროგრამებთან, როგორიცაა CRM და ფინანსური სისტემები, რაც აძლიერებს პროცესების ოპტიმიზაციას და მართვას. ჩვენი აპლიკაციები უზრუნველყოფენ საუკეთესო ეფექტურობას და უსაფრთხოებას, რაც თქვენი მონაცემების დაცვასა და სისტემის სტაბილურ მუშაობას უზრუნველყოფს. დაგვიკავშირდით, რათა განვიხილოთ თქვენი პროექტი და გავეცნოთ, როგორ შეიძლება ჩვენი დესკტოპ აპლიკაციები დადებითად იმოქმედოს თქვენს ბიზნესზე."
       },
@@ -179,7 +179,7 @@
         "id": 4,
         "name": "ხანძარსაწინააღმდეგო სისტემები",
         "info": "ჩვენი ხანძარსაწინააღმდეგო სისტემები უზრუნველყოფს თქვენს ობიექტზე სრული უსაფრთხოებას, რაც ხელს უწყობს ხანძრის ადრეულ აღმოჩენასა და დროულ რეაგირებას.",
-        "img": "./icons/fire.png",
+        "img": "/icons/fire.png",
         "development": "მშენებლობა",
         "details": "ხანძარსაწინააღმდეგო სისტემები აუცილებელია ნებისმიერი ტიპის ობიექტისთვის, რათა თავიდან აიცილოს ხანძრის გაჩენა და განამტკიცოს უსაფრთხოება. ჩვენი გუნდი გთავაზობთ პროფესიონალურ სისტემებს, რომლებიც ადრეულ ეტაპზე აღმოაჩენენ ხანძრის საშიშროებას და დაიწყებენ ავტომატურ გაფრთხილებას, რაც საშუალებას იძლევა შენობის გამგებელს დროულად მიიღოს ზომები. ჩვენ ვმუშაობთ როგორც კომერციული, ასევე საცხოვრებელი ობიექტებისათვის და გთავაზობთ სისტემების სრული ინტეგრაციას, როგორიცაა სენსორები, ხანძრის გამოვლენას და გაზის ანტიტოქსიკური სისტემები. ჩვენი ხანძარსაწინააღმდეგო სისტემები მოიცავს ხანძრის დეტექტორებს, წყლის სპრეის სისტემებს, უსაფრთხოების ჭერს, და სხვა. ყველაფერი ეს უზრუნველყოფს ეფექტურ გამაფრთხილებელ და რეაგირების მექანიზმებს, რაც მნიშვნელოვნად ამცირებს ხანძრის დროს სახლებისა და ბიზნესის ზარალს. ჩვენ ვამზადებთ და განვახორციელებთ თითოეული სერვისის სისტემას, რომელიც მოიცავს დამონტაჟებას, მოვლას და რეგულარულ ტექნიკურ მომსახურებას. ჩვენი სისტემები სრულად შეესაბამება ყველა თანამედროვე სტანდარტს და უზრუნველყოფს უსაფრთხოებასა და სტაბილურობას. დაგვიკავშირდით, რათა განვიხილოთ თქვენი მოთხოვნები და გავიგოთ, როგორ შეიძლება ჩვენი ხანძარსაწინააღმდეგო სისტემები დაიცვას თქვენი ობიექტი."
       },
@@ -187,7 +187,7 @@
         "id": 5,
         "name": "მობაილ აპლიკაციები",
         "info": "ჩვენი მობაილ აპლიკაციები ქმნიან ინოვაციურ და მოსახერხებელ გადაწყვეტილებებს თქვენი ბიზნესისათვის, რომელიც ადვილად იშოვება მომხმარებლის ტელეფონში.",
-        "img": "./icons/mobile.png",
+        "img": "/icons/mobile.png",
         "development": "IT",
         "details": "მობაილ აპლიკაციები მნიშვნელოვან როლს ასრულებენ თანამედროვე ბიზნეს სამყაროში, რადგან მომხმარებლები ელოდებიან სწრაფ, მარტივ და უსაფრთხო მომსახურებას მათი მობილური მოწყობილობებიდან. ჩვენ გთავაზობთ მაღალი ხარისხის მობილური აპლიკაციების შექმნას, რომლებიც განკუთვნილია როგორც Android, ისე iOS პლატფორმებისთვის. ჩვენი აპლიკაციები სრულად პასუხობს მომხმარებლის საჭიროებებს და უზრუნველყოფს საუკეთესოს გამოყენების გამოცდილებას, რადგან ისინი სწრაფად მუშაობენ და ეფექტურად იყენებენ მობილური მოწყობილობების შესაძლებლობებს. ჩვენ ვქმნით აპლიკაციებს, რომლებიც შესაძლებელია ინტეგრაციისთვის სხვა სისტემებთან, როგორიცაა მონაცემთა ბაზები, სოციალური ქსელები და სხვა გარეგანი რესურსები. მობილური აპლიკაციების განვითარებისას ჩვენ დიდ ყურადღებას ვაქცევთ მომხმარებლის ინტერფეისის დიზაინს (UI) და გამოცდილებას (UX), რათა ის იყოს მარტივი და კომფორტული. გარდა ამისა, ჩვენ უზრუნველყოფთ მობილური აპლიკაციების უსაფრთხოებას და კონფიდენციალობის დაცვას, რათა თქვენი მომხმარებლების მონაცემები იყოს დაცული. ჩვენი გუნდი მზად არის თქვენი მოთხოვნების შესაბამისად განახორციელოს პერსონალიზაცია, რათა თითოეული აპლიკაცია სრულიად შეესაბამებოდეს თქვენს ბიზნესს. დაგვიკავშირდით, რათა განვიხილოთ თქვენი პროექტი და გავიგოთ, როგორ შეიძლება ჩვენი მობილური აპლიკაციები დაეხმაროს თქვენს ბიზნესს."
       },
@@ -195,7 +195,7 @@
         "id": 6,
         "name": "UPS სისტემები",
         "info": "ჩვენი UPS სისტემები უზრუნველყოფს უწყვეტ ენერგიას და ეხმარება სამრეწველო და საცხოვრებელი ობიექტების სტაბილურობას.",
-        "img": "./icons/Screenshot_2024-08-27_200054.png",
+        "img": "/icons/Screenshot_2024-08-27_200054.png",
         "development": "მშენებლობა",
         "details": "UPS (Uninterruptible Power Supply) სისტემები აუცილებელია ნებისმიერი ობიექტისთვის, სადაც ენერგიის უწყვეტობა კრიტიკულია. ჩვენი UPS სისტემები უზრუნველყოფს დაცვას ელექტროენერგიის გათიშვისგან, შოკისგან და სხვა შესაძლო პრობლემებისგან, რაც შეიძლება შეაფერხოს მოწყობილობების მუშაობა. ჩვენ ვთავაზობთ როგორც მცირე, ისე დიდი ზომის UPS სისტემებს, რომლებიც სრულიად შეესაბამება თქვენს მოთხოვნებს. ჩვენი გუნდი აგზავნის პროფესიონალებს UPS სისტემების გამართული დანერგვისთვის, რათა ის შეუფერხებლად მუშაობდეს ნებისმიერ გარემოში, იქნება ეს კომერციული თუ საცხოვრებელი. გარდა ამისა, ჩვენ უზრუნველვყოფთ UPS სისტემების სერვისსა და ტექნიკურ მხარდაჭერას, რათა დარწმუნდეთ, რომ ისინი ყოველთვის მუშაობენ ოპტიმალური მდგომარეობით. UPS სისტემების ინსტალაციისას ჩვენ ყურადღებას ვაქცევთ ენერგიის შთანთქმის ოპტიმიზაციას, რათა ხარჯები იქნას მაქსიმალურად შემცირებული და უზრუნველყოფილი იყოს მაღალხარისხოვანი გამართული მუშაობა. ჩვენი UPS სისტემები ასევე გთავაზობთ მულტიპლექსურ სისტემებს და შიდა განყოფილებებს, რათა თითოეული აპარატი მიიღოს საჭირო რაოდენობის ენერგია. დაელაპარაკეთ ჩვენს ექსპერტებს დღესვე და გაეცანით ჩვენს UPS სისტემებს, რომლებიც სრულად შეესაბამება თქვენს საჭიროებებს."
       },
@@ -203,7 +203,7 @@
         "id": 7,
         "name": "მზის პანელები",
         "info": "მზის პანელები უზრუნველყოფენ ეკოლოგიურად სუფთა ენერგიის წყაროს, რომელიც იძლევა ენერგიის დამოუკიდებლობას და ამცირებს ენერგიის ხარჯებს.",
-        "img": "./icons/solar.png",
+        "img": "/icons/solar.png",
         "development": "მშენებლობა",
         "details": "მზის პანელები დღესდღეობით ერთ-ერთ ყველაზე ეფექტურ და ეკოლოგიურად სუფთა ენერგიის წყაროს წარმოადგენენ. ისინი შესაძლებლობას იძლევა თქვენი სახლის ან ბიზნესის ენერგეტიკული მოთხოვნილებების უზრუნველყოფა მზის ენერგიის გამოყენებით, რაც ხელს უწყობს როგორც ენერგიის დაზოგვას, ისე გარემოს დაცვას. ჩვენი მზის პანელების სისტემები დამზადებულია უმაღლესი ხარისხის მასალებით და უზრუნველყოფს მაღალი ეფექტურობის დონეს. მზის პანელები მარტივად იკავშირება არსებულ ენერგო სისტემასთან, რაც საშუალებას იძლევა სუფთა ენერგიის გადაცემას და შენახვას. ჩვენ ვთავაზობთ მზის პანელების სრულ ინსტალაციას, რაც მოიცავს როგორც სისტემის დაგეგმვას, ასევე პროფესიონალურ მონტაჟს. ასევე, ჩვენ უზრუნველვყოფთ მზის პანელების გამართული მუშაობის ტექნიკურ მომსახურებას და მხარდაჭერას. მზის ენერგიის გამოყენებით, თქვენ შეძლებთ მნიშვნელოვნად შეამციროთ ელექტროენერგიის ხარჯები და შეაჩეროთ ეკოლოგიური footprint-ის ზრდა. თუ გსურთ გაიგოთ, როგორ შეიძლება მზის პანელებმა გაზარდონ თქვენი ენერგიის ეკონომია და გააუმჯობესონ თქვენი გარემო, დაგვიკავშირდით და ჩვენ გთავაზობთ დეტალურ კონსულტაციებს და solutions-ის შეხილვებს."
       },
@@ -211,7 +211,7 @@
         "id": 8,
         "name": "საიტები",
         "info": "ჩვენ ვქმნით პროფესიონალურ და ფუნქციურ ვებ-საიტებს, რომლებიც სრულად შეესაბამება თქვენს ბიზნეს საჭიროებებს.",
-        "img": "./icons/web.png",
+        "img": "/icons/web.png",
         "development": "IT",
         "details": "პროფესიონალური ვებ-საიტების შექმნა მნიშვნელოვანია ნებისმიერი ბიზნესისთვის, რათა გააუმჯობესოს მომხმარებელთან ურთიერთობა, გაზარდოს ონლაინ წარმოჩენა და უზრუნველყოს მომხმარებლის საჭიროებების დაკმაყოფილება. ჩვენ ვთავაზობთ სრულ მომსახურებას ვებ-საიტების შექმნის პროცესში, დაწყებული პროექტის კონცეფციიდან და დიზაინიდან, გაგრძელებული ტექნიკური გადაწყვეტებით და ოპტიმიზაციით. ჩვენი გუნდში არის გამოცდილები დეველოპერები, რომლებიც გამოიყენებენ უახლეს ტექნოლოგიებს, რათა თქვენი ვებ-საიტი იყოს სწრაფი, უსაფრთხო და პერსონალიზირებული. ვქმნით როგორც გასართობ საიტებს, ასევე სამეწარმეო, ელექტრონული კომერციის, ბლოგებისა და სხვა ტიპის ვებ-პლატფორმებს, რომლებიც სრულად პასუხობს მომხმარებლის მოთხოვნებს. ჩვენთან დაკავშირებისას, ჩვენ ვიზრუნებთ თქვენი საიტის მუშაობაზე, რათა ის იყოს მარტივი გამოყენებისთვის, SEO-ის ოპტიმიზებული და სრულად მობილური. აგრეთვე, ვთავაზობთ საიტების ტექნიკურ მხარდაჭერასა და სერვისებს, რათა ის ყოველთვის განახლებული და გამართული იყოს. ჩვენ ვმუშაობთ თქვენი წარმატებისთვის და ვქმნით საიტებს, რომლებიც ხელს უწყობს ბიზნესის ზრდასა და განვითარებას."
       },
@@ -219,7 +219,7 @@
         "id": 9,
         "name": "მომხმარებელთა დათვლა",
         "info": "მომხმარებელთა დათვლის სისტემა არის ტექნოლოგია, რომელიც გამოიყენება ადამიანების ნაკადის მონიტორინგისთვის, რომლებიც შედიან ან გამოდიან სივრცეში, ჩვეულებრივ გამოყენებულია საცალო მაღაზიებში, სავაჭრო ცენტრებში, აეროპორტებში და საზოგადოებრივ ადგილებში.",
-        "img": "./icons/Customer Counting.png",
+        "img": "/icons/Customer Counting.png",
         "development": "მშენებლობა",
         "details": "სხვადასხვა განათების პირობებში და წეღლებზე. Gazelle DualView სისტემა აკავშირებს როგორც ვიდეო, ისე თერმულ ტექნოლოგიებს, რაც უზრუნველყოფს აუმჯობესებულ სიზუსტეს რთულ, მაღალი დატვირთვის გარემოებში. უფრო ზუსტი ტრეკინგისთვის გადატვირთულ სივრცეში, Gazelle Thermal 3D Video Counter ინტეგრირებს 3D ვიდეო ტექნოლოგიას თერმულ სენსორებთან დეტალური მონიტორინგისთვის. საბაზისო 2D ვიდეო კონტურები დაეყრდნობიან სტანდარტულ კამერებს გამოსახულების დამუშავებით ადამიანების აღმოჩენის და დათვლისთვის, რაც შესაფერისია უფრო მარტივი გარემოებისთვის საშუალო დატვირთვით. ბოლოს, beam counters იყენებს ინფრაწითელი სხივებს შესასვლელებში, რეგისტრირებას აკეთებს, როდესაც ვინმე გადაკვეთს სხივს, რაც მათ იდეალურად აყენებს მცირე ადგილებისთვის ან მარტივი მოწყობილობებისთვის. თითოეული სისტემის ტიპი უზრუნველყოფს კონკრეტულ უპირატესობებს გარემოს სირთულის და სიზუსტის საჭიროებების შესაბამისად."
       },
@@ -227,7 +227,7 @@
         "id": 10,
         "name": "EAS (ელექტრონული სტატიების ზედამხედველობა)",
         "info": "EAS სისტემები უზრუნველყოფს უსაფრთხოების გაუმჯობესებას და მარეგულირებელი კონტროლის ხელმისაწვდომობას მაღაზიებსა და სხვა კომერციულ ობიექტებში.",
-        "img": "./icons/EAS.png",
+        "img": "/icons/EAS.png",
         "development": "მშენებლობა",
         "details": "ელექტრონული სტატიების ზედამხედველობის (EAS) სისტემები არის თანამედროვე ტექნოლოგია, რომელიც გამოიყენება საწყობებსა და მაღაზიებში პროდუქტის უსაფრთხოების და მარეგულირებელი კონტროლის უზრუნველსაყოფად. ჩვენი EAS სისტემები განკუთვნილია იმისთვის, რომ დაეხმაროს ბიზნესებს დაიცვან თავიანთი პროდუქცია მაღაზიებში და შეამცირონ ჯიბეებზე ჩადენილი ქურდობის შემთხვევები. EAS სისტემები ეფუძნება მაღალსიჩქარიან რადიო-ტალღების და ციფრული ტექნოლოგიების გამოყენებას, რაც საშუალებას იძლევა პროდუქციის უცილობლად მონიტორინგი რეალურ დროში. ჩვენ ვთავაზობთ სრულ ტექნიკურ მომსახურებას EAS სისტემების მონტაჟზე, კონფიგურაციას და შენარჩუნებას. ამ სისტემების გამოყენება მნიშვნელოვნად გააუმჯობესებს თქვენს ბიზნესის უსაფრთხოებას, დაიცავს ინვენტარს და ხელი შეუწყობს ბიზნესის ეფექტიანობას. ჩვენ გვაქვს მრავალწლიანი გამოცდილება, რაც საშუალებას გვაძლევს შემოგთავაზოთ უმაღლესი ხარისხის EAS სისტემები, რომლებიც სრულად შეესაბამება თქვენს მოთხოვნებს და ბიზნესის სპეციფიკას."
       },
@@ -235,7 +235,7 @@
         "id": 11,
         "name": "მეთალო დიაგნოზირება",
         "info": "ჩვენ გთავაზობთ უახლეს მეთალო დიაგნოზირების სისტემებს, რომლებიც უზრუნველყოფს მაღალხარისხიან და ზუსტ მასალის გამოვლენას.",
-        "img": "./icons/metal detection.png",
+        "img": "/icons/metal detection.png",
         "development": "მშენებლობა",
         "details": "მეთალო დიაგნოზირების სისტემები გამოიყენება სხვადასხვა ინდუსტრიებში, რათა უზრუნველყოს მასალის ან გაუმართავი მეტალის ნაწილის ზუსტი აღმოჩენა. ჩვენი სისტემები დაინსტალირდება, როგორც პატარა მაღაზიებში, ისე მსხვილ საწარმოებში, სადაც აუცილებელია უსაფრთხოება და მაღალი ხარისხის შემოწმება. ჩვენ ვთავაზობთ განახლებული ტექნოლოგიების საფუძველზე შექმნილ დიაგნოზირების მოწყობილობებს, რომლებიც უზრუნველყოფენ მაღალი მგრძნობელობა და ეფექტურობა. ასევე, ჩვენს მიერ შემოთავაზებული სისტემები მარტივად განლაგდება და ადვილად იმუშავებს, რაც მნიშვნელოვნად ამცირებს დროისა და რესურსების ხარჯებს. მეტალო დიაგნოზირების სისტემები გამოიყენება სხვადასხვა სფეროებში, როგორიცაა წარმოება, საზღვრის კონტროლი, ხელოვნური და ბუნებრივი მასალების ტესტირება, უსაფრთხოების შემოწმება და სხვა. ჩვენთან თანამშრომლობა დაგეხმარებათ თქვენს ბიზნესს უზრუნველყოს უსაფრთხოება და ეფექტიანობა მაღალ დონეზე, ისე რომ დაცული იყოს ყველა სტანდარტი და მოთხოვნა."
       },
@@ -243,7 +243,7 @@
         "id": 12,
         "name": "RFID (რადიო სიხშირე იდენტიფიკაცია)",
         "info": "RFID სისტემები უზრუნველყოფს მაღალეფექტურ და უპარტიო ტექნოლოგიას ინვენტარის, აქტივების და პერსონალის თვალთვალისთვის.",
-        "img": "./icons/RFID.png",
+        "img": "/icons/RFID.png",
         "development": "მშენებლობა",
         "details": "რადიო სიხშირე იდენტიფიკაციის (RFID) სისტემები თანამედროვე ტექნოლოგიაა, რომელიც საშუალებას აძლევს კომპანიებს და ორგანიზაციებს მარტივად აკონტროლონ და დააკვირდნენ მათი აქტივების, ინვენტარისა და პერსონალის ადგილმდებარეობას რეალურ დროში. RFID ტექნოლოგია მოიცავს პატარა გადამცემ მოწყობილობებს, რომლებიც უკავშირდებიან მკითხველებს და უზრუნველყოფენ სწრაფ და უსაფრთხო მონაცემთა გადაცემას. ეს სისტემა სასარგებლოა როგორც მცირე ბიზნესებისთვის, ასევე მსხვილი საწარმოებისათვის, რადგან აძლევს მათ შესაძლებლობას მარტივად გააკონტროლონ რესურსები, განახორციელონ ზუსტი ინვენტარიზაცია და ამცირებენ ადამიანის ფაქტორით გამოწვეულ შეცდომებს. RFID ტექნოლოგია გამოიყენება სხვადასხვა ინდუსტრიებში, მათ შორის საცალო ვაჭრობაში, ლოჯისტიკაში, საწყობებში, პერსონალის კონტროლში და სხვა. RFID სისტემების დახმარებით თქვენი ბიზნესი მიიღებს მოქნილობას, რომელსაც საშუალებას მისცემს უსაფრთხოდ და ეფექტურად მართოს თავისი რესურსები. ჩვენ ვთავაზობთ მაღალკვალიფიციურ ტექნიკურ მხარდაჭერას, მონტაჟსა და სისტემების ინტეგრაციას, რათა უზრუნველყოთ მაქსიმალური ეფექტურობა და უსაფრთხოება."
       },
@@ -251,7 +251,7 @@
         "id": 13,
         "name": "ავტომატური ნომრის აღიარება",
         "info": "ჩვენ გთავაზობთ თანამედროვე ავტომატური ნომრის აღიარების სისტემებს, რომლებიც უზრუნველყოფს უსაფრთხოების და მართვის პროცესების გაუმჯობესებას.",
-        "img": "./icons/automatic-plate-recognation.png",
+        "img": "/icons/automatic-plate-recognation.png",
         "development": "მშენებლობა",
         "details": "ავტომატური ნომრის აღიარების (ANPR) ტექნოლოგია საშუალებას აძლევს სისტემებს სწრაფად და ზუსტად ამოიცნონ და ჩამოაყალიბონ ავტომანქანების ნომრები რეალურ დროში. ეს სისტემა გამოიყენება როგორც საჯარო, ისე კერძო სექტორში, რათა გაუმჯობესდეს პარკინგის მართვა, უსაფრთხოება, შიდა გზებზე მოძრაობის კონტროლი და სხვა მრავალი პროგრამა. ANPR ტექნოლოგია ქმნის მტკიცე და ეფექტურ მოდულს, რომელიც პირნათლად უზრუნველყოფს მაღალი სიზუსტით მონაცემების აღდგენას და ავტომობილების ნომრების პოვნისას ნებისმიერი სახის გარემოში. ეს სისტემა განსაკუთრებით ეფექტურია ავტოსადგომებზე, დასასვენებელ ადგილებში, შიდა გზებზე, უსაფრთხოების სათვალთვალო სისტემებში, ტრანსპორტის კონტროლის სისტემებში და სხვა. ჩვენი ავტომატური ნომრის აღიარების სისტემა უახლესი ტექნოლოგიებით აღჭურვილია და ოპერირება შესაძლებელია როგორც ღია, ისე დახურული სივრცეებში. იგი გამოიყენება ავტოსადგომების მართვის, პარკინგის განაკვეთების კონტროლის, უსაფრთხოების დარღვევების გამოვლენის და დოკუმენტების ანალიზის მიზნით. ANPR სისტემა მნიშვნელოვნად აუმჯობესებს უსაფრთხოებას და ავტომატიზაციას თქვენი ბიზნესისთვის, რაც აჩქარებს ოპერაციებს და ამცირებს ადამიანური შეცდომების რისკს."
       },
@@ -259,7 +259,7 @@
         "id": 14,
         "name": "მონაცემების კონტროლი",
         "info": "ჩვენი მონაცემების კონტროლის სისტემები უზრუნველყოფს თქვენი ორგანიზაციის მონაცემების უსაფრთხოებას, სიზუსტეს და დაცულობას.",
-        "img": "./icons/acces-control.png",
+        "img": "/icons/acces-control.png",
         "development": "მშენებლობა",
         "details": "მონაცემების კონტროლი თანამედროვე სისტემების ნაწილს წარმოადგენს, რომელიც პასუხისმგებელია მონაცემების მართვაზე, მათი სიმართლესა და დაცულობაზე. ჩვენი მონაცემების კონტროლის სისტემები საშუალებას იძლევა არამარტო ორგანიზაციული მონაცემების ეფექტურად დამუშავება და მათზე ზედამხედველობა, არამედ მათი უსაფრთხოების უზრუნველყოფაც. ასეთი სისტემები ხშირად გამოიყენება ბიზნესების, ბანკების, სახელმწიფო ორგანოებისა და ორგანიზაციების მონაცემების დაცვისთვის, რათა მათ უსაფრთხო პირობებში განახორციელონ საქმიანობა და უზრუნველყონ თანახმად ყველა სამართლებრივი რეგულაციასთან. მონაცემების კონტროლი მოიცავს სხვადასხვა მეთოდებს, როგორიცაა უსაფრთხოების პროტოკოლები, დაშვების კონტროლი, ინვოისების და ანგარიშების ზედამხედველობა, მონაცემების კრიპტოგრაფია და აუდიტი. ეს სისტემები შექმნილია იმისთვის, რომ უზრუნველყონ მონაცემთა მთლიანობა და ცდომილებების შემცირება, ასევე დაცვა სიღრმისეული ანალიტიკური აღჭურვილობით. მონაცემების კონტროლის სისტემის გამოყენება სასარგებლოა ისეთ სფეროებში, როგორიცაა ფინანსები, ჯანმრთელობის დაცვა, საჯარო და კერძო სექტორი, სადაც ინფორმაციის მართვა და უსაფრთხოება კრიტიკულად მნიშვნელოვანია."
       },
@@ -267,7 +267,7 @@
         "id": 15,
         "name": "ბარიერები და პარკირების სისტემები",
         "info": "ჩვენი ბარიერები და პარკირების სისტემები უზრუნველყოფს თქვენს პარკირებისთვის სწრაფ, უსაფრთხო და ეფექტურ გადაწყვეტებს.",
-        "img": "./icons/parking-system.png",
+        "img": "/icons/parking-system.png",
         "development": "მშენებლობა",
         "details": "ბარიერები და პარკირების სისტემები წარმოადგენს თანამედროვე ტექნოლოგიებს, რომლებიც უზრუნველყოფენ პარკირების მენეჯმენტს, უსაფრთხოებას და ეფექტურობას. ჩვენი სისტემები გამოიყენება ავტოპარკების კონტროლისთვის, რაც საშუალებას აძლევს მომხმარებელს სწრაფად და მარტივად დაამტკიცოს პარკირების ადგილები. ჩვენ ვთავაზობთ მაღალტექნოლოგიური პარკირების ბარიერების სისტემებს, რომლებიც უზრუნველყოფენ როგორც საჯარო, ისე კერძო პარკირების ტერიტორიის უსაფრთხოებას. ასეთი სისტემები ამარტივებს პარკირების ადმინისტრაციას, მინიმუმამდე ამცირებს პარკირების დარღვევების რაოდენობას და აუმჯობესებს მოძრაობის ეფექტურობას. პარკირების ბარიერები უზრუნველყოფენ ავტომობილების დროული შესვლის და გამოსვლის კონტროლს, ხოლო უსაფრთხოების მაღალი სტანდარტები სთავაზობენ მომხმარებლებს დაცულ გარემოს. გარდა ამისა, ჩვენი სისტემები ეფექტურად ამუშავებენ პარკირების ლიცენზიებს, ავტობუსების ზონებს, ელექტრო-ავტობუსების პარკინგის სისტემებს და სერვისებს, რომლებიც სრულად მოიცავს ინფრასტრუქტურის ყველა საჭიროებას."
       },
@@ -275,7 +275,7 @@
         "id": 16,
         "name": "POS (ყიდვის წერტილი)",
         "info": "ჩვენ ვუზრუნველყოფთ მაღალტექნოლოგიური POS სისტემების განთავსებას, რომლებიც ამარტივებენ გაყიდვების პროცესს და ზრდის ბიზნესის ეფექტურობას.",
-        "img": "./icons/pos.png",
+        "img": "/icons/pos.png",
         "development": "მშენებლობა",
         "details": "POS (ყიდვის წერტილი) სისტემები წარმოადგენს ბიზნესისთვის მნიშვნელოვან ინსტრუმენტებს, რომლებიც იყენებენ თანამედროვე ტექნოლოგიებს ტრანზაქციების რეგისტრაციისა და ზედამხედველობისთვის. ჩვენი სისტემები ეფექტურად მართავს გაყიდვების პროცესს, რათა დაამარტივოს ანგარიშგება, შექმნას სანდო ანგარიშგების მექანიზმები და გაუმჯობესოს მომხმარებლის გამოცდილება. POS სისტემები იდეალურია სხვადასხვა ტიპის ბიზნესებისთვის, მათ შორის სავაჭრო ცენტრებში, რესტორნებსა და სხვა მომსახურების სფეროებში. ჩვენ გთავაზობთ ნებისმიერი ტიპის POS სისტემას, რომელიც შეესაბამება თქვენს ბიზნესის მოთხოვნებს, ხოლო მაღალტექნოლოგიური გადაწყვეტები გთავაზობთ ავტომატიზებულ ანგარიშგებას, სავაჭრო პროცესების მართვას და სწრაფი გადახდის პროცესებს. POS სისტემები ასევე საშუალებას აძლევს ბიზნესებს ხელი შეუწყონ პროდუქტების ადვილად მართვას, დასაბეგრავი ხარჯების კონტროლს და ტრანზაქციების გამარტივებას. ჩვენი სისტემები შექმნილია ბიზნესის მუდმივი ზრდისა და ეფექტურობის დასამყარებლად."
       },
@@ -283,7 +283,7 @@
         "id": 17,
         "name": "დიზაინი და მშენებლობა",
         "info": "ჩვენ გთავაზობთ სრულ მომსახურებას, რომელიც მოიცავს ინოვაციურ დიზაინის და მშენებლობის გადაწყვეტილებებს თქვენი პროექტის ყველა სტადიაზე.",
-        "img": "./icons/design and build.png",
+        "img": "/icons/design and build.png",
         "development": "მშენებლობა",
         "details": "დიზაინი და მშენებლობა წარმოადგენს პროექტის განვითარების სრულ პროცედურას, რომელიც მოიცავს როგორც კრეატიულ დიზაინს, ისე ხარისხიან მშენებლობას. ჩვენი გუნდი მუშაობს როგორც საცხოვრებელი, ისე კომერციული პროექტებისთვის, რათა შექმნას სივრცეები, რომლებიც ხასიათდებიან როგორც ესთეტიკური, ისე ფუნქციონალური მხარეებით. ჩვენ გთავაზობთ სრულ მომსახურებას, რომლის ფარგლებშიც შედის კონცეფციის შექმნა, ინჟინრული სერვისები, მშენებლობის მართვა და საბოლოო მიტანა. ჩვენი მიზანია, უზრუნველყოთ პროექტის ეფექტურობა, დროულობა და მაღალი ხარისხი, ხოლო ასევე დარწმუნდებით, რომ პროექტი აკმაყოფილებს ყველა რეგულაციას და სტანდარტებს. დიზაინის და მშენებლობის პროცესში ჩვენ ვაკეთებთ საჭირო კვლევებს და ქმნით გადაწყვეტილებებს, რომლებიც საუკეთესო არამარტო გემოვნების, არამედ მდგრადობისა და კომფორტისთვისაც. თითოეული პროექტი ჩვენთვის არის ინდივიდუალური გამოწვევა, რომელსაც ჩვენ მივუდგებით მაქსიმალური ყურადღებით."
       },
@@ -291,9 +291,10 @@
         "id": 18,
         "name": "რადიო სიხშირით დაცვის სისტემა",
         "info": "EAS სისტემები მნიშვნელოვან როლს ასრულებს მაღაზიებში ქურდობის პრევენციასა და საქონლის დაცვაში.",
-        "img": "./icons/anti-thief-system.png",
+        "img": "/icons/anti-thief-system.png",
         "development": "მშენებლობა",
-        "details": "ანტიჰეპტური მანქანა სავაჭრო ცენტრებში უსაფრთხოების სისტემა designed to prevent shoplifting. ეს მანქანები, რომელსაც ცნობილია როგორც ელექტრონული სტატიების ზედამხედველობის (EAS) სისტემები, ჩვეულებრივ შედგება სენსორებისგან მაღაზიის გასასვლელებზე და სპეციალური ნიშნულების ან ეტიკეტებისგან საქონელზე. როდესაც აქტიური თეგი სენსორების გავლით გამოდის მაღაზიიდან, მაღაზიის მუშაკების მიერ გახსნის გარეშე, ზარი ირთვება, notifying security personnel. ეს სისტემები ქურდობის აღკვეთისთვის არის იდეალური და ფართოდ გამოიყენება საცალო გარემოებში დაკარგვის პრევენციის მიზნით."      }
+        "details": "ანტიჰეპტური მანქანა სავაჭრო ცენტრებში უსაფრთხოების სისტემა designed to prevent shoplifting. ეს მანქანები, რომელსაც ცნობილია როგორც ელექტრონული სტატიების ზედამხედველობის (EAS) სისტემები, ჩვეულებრივ შედგება სენსორებისგან მაღაზიის გასასვლელებზე და სპეციალური ნიშნულების ან ეტიკეტებისგან საქონელზე. როდესაც აქტიური თეგი სენსორების გავლით გამოდის მაღაზიიდან, მაღაზიის მუშაკების მიერ გახსნის გარეშე, ზარი ირთვება, notifying security personnel. ეს სისტემები ქურდობის აღკვეთისთვის არის იდეალური და ფართოდ გამოიყენება საცალო გარემოებში დაკარგვის პრევენციის მიზნით."
+      }
     ]
   }
 }

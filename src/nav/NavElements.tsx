@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-
 const List = styled.ul`
   list-style-type: none;
   padding: 0;
@@ -54,7 +53,9 @@ const ListItem = styled.li`
   }
 `;
 
-const ContactButton = styled.button<{ isActive?: boolean }>`
+const ContactButton = styled.button.withConfig({
+  shouldForwardProp: (prop) => prop !== "isActive",
+})<{ isActive?: boolean }>`
   background: ${({ isActive }) =>
     isActive ? "linear-gradient(135deg, #6e8efb, #a777e3)" : "transparent"};
   border: 2px solid #6e8efb;
@@ -73,6 +74,7 @@ const ContactButton = styled.button<{ isActive?: boolean }>`
     transform: scale(1);
   }
 `;
+
 
 const NavElements: React.FC = () => {
   const { t } = useTranslation();

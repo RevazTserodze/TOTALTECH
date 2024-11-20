@@ -40,7 +40,7 @@ interface FilterCriteria {
 const AccessoriesContext = createContext<AccessoriesContextType | undefined>(undefined);
 
 const fetchAccessories = async (): Promise<AccessoriesType> => {
-  const response = await axios.get("companyAccessories.json");
+  const response = await axios.get("/companyAccessories.json");
   return response.data;
 };
 

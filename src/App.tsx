@@ -11,25 +11,22 @@ import ServiceDetails from "./pages/services/ServiceDetails";
 import AccessoriesDetail from "./pages/Accessories/AccessoriesDetails";
 import { AccessoriesProvider } from "./context/useAccessories";
 
-
 function App() {
   return (
-    <>
-      <AccessoriesProvider>
-        <Nav />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/service/:id" element={<ServiceDetails />} />
-          <Route path="*" element={<NotFound />} />
-          <Route path="/accessories" element={<Accessories />} />
-          <Route path="/accessories/:id" element={<AccessoriesDetail />} />
-        </Routes>
-        <Footer />
-      </AccessoriesProvider>
-    </>
+    <AccessoriesProvider>
+      <Nav />
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/service/:id" element={<ServiceDetails />} />
+        <Route path="*" element={<NotFound />} />
+        <Route path="/accessories" element={<Accessories />} />
+        <Route path="/accessories/:id" element={<AccessoriesDetail />} />
+      </Routes>
+      <Footer />
+    </AccessoriesProvider>
   );
 }
 

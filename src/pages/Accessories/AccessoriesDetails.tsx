@@ -24,7 +24,7 @@ interface CardObject {
 type AccessoriesType = Record<string, CardObject>;
 
 const fetchAccessories = async (): Promise<AccessoriesType> => {
-  const response = await axios.get("/car-app/companyAccessories.json");
+  const response = await axios.get("/companyAccessories.json");
   return response.data;
 };
 
