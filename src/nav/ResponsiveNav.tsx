@@ -58,6 +58,13 @@ const ResponsiveNav = () => {
     });
   };
 
+  const navLinks = [
+    { text: "Welcome to React", to: "/" },
+    { text: "Services", to: "/services" },
+    { text: "Shop", to: "/accessories" },
+    { text: "Contact", to: "/contact" },
+  ];
+
   return (
     <>
       <motion.nav
@@ -149,33 +156,31 @@ const ResponsiveNav = () => {
               exit={{ maxHeight: 0, opacity: 0 }}
               transition={{ duration: 0.5 }}
             >
-              {["Welcome to React", "Services", "Shop", "Contact"].map(
-                (text, idx) => (
-                  <motion.div
-                    key={text}
+              {navLinks.map((link, idx) => (
+                <motion.div
+                  key={link.text}
+                  style={{
+                    padding: "15px",
+                    textAlign: "center",
+                  }}
+                  initial={{ y: 50, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  exit={{ y: 50, opacity: 0 }}
+                  transition={{ delay: idx * 0.1, duration: 0.3 }}
+                >
+                  <Link
+                    to={link.to}
                     style={{
-                      padding: "15px",
-                      textAlign: "center",
+                      color: "#333",
+                      textDecoration: "none",
+                      fontSize: "16px",
                     }}
-                    initial={{ y: 50, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    exit={{ y: 50, opacity: 0 }}
-                    transition={{ delay: idx * 0.1, duration: 0.3 }}
+                    onClick={handleNavLinkClick}
                   >
-                    <Link
-                      to={`/${text.toLowerCase()}`}
-                      style={{
-                        color: "#333",
-                        textDecoration: "none",
-                        fontSize: "16px",
-                      }}
-                      onClick={handleNavLinkClick}
-                    >
-                      {t(text)}
-                    </Link>
-                  </motion.div>
-                )
-              )}
+                    {t(link.text)}
+                  </Link>
+                </motion.div>
+              ))}
               <motion.button
                 style={{
                   cursor: "pointer",

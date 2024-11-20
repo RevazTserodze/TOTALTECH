@@ -95,7 +95,7 @@ const Contact: React.FC = () => {
   return (
     <ContactWrapper>
       <Container>
-        <h1>{t("Contact Us")}</h1>
+        <h2>{t("Contact Us")}</h2>
         <p>
           {t(
             "We align leaders around a shared purpose and strategic story that catalyzes their business and brand to take action."
